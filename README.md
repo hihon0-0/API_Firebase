@@ -62,7 +62,8 @@ project/
 
 ## 🚀 Hướng dẫn cài đặt và khởi chạy   
 
-### 1. Cài đặt môi trườngĐảm bảo bạn đã cài đặt Python 3.8 trở lên. Tại thư mục gốc của dự án, chạy lệnh:
+### 1. Cài đặt môi trườngĐảm bảo bạn đã cài đặt Python 3.8 trở lên. 
+Tại thư mục gốc của dự án, chạy lệnh:
 Bash
 ``` 
 pip install -r requirements.txt
@@ -75,7 +76,7 @@ cd backend
 python -m uvicorn main:app --reload
 ```
 
-* **Note: API sẽ hoạt động tại: http://127.0.0.1:8000   
+* Note: API sẽ hoạt động tại: http://127.0.0.1:8000 
 
 ### 3. Khởi chạy Frontend (Streamlit)
 Mở một Terminal mới và di chuyển vào thư mục frontend:
@@ -85,8 +86,8 @@ cd frontend
 python -m streamlit run app.py
 ```
 
-* **Note: Giao diện web sẽ tự động mở tại: http://localhost:8501   
+* Note: Giao diện web sẽ tự động mở tại: http://localhost:8501   
 
 ## 📹 Video Demo ứng dụng   
 Video trình bày đầy đủ quá trình vận hành hệ thống, từ đăng nhập đến thao tác dữ liệu thực tế trên Firebase.
-### 🔗 [[![Demo](https://drive.google.com/drive/folders/1WwyWOiymXZP48JaqNQt3IKbZQrPbRH9i?usp=drive_link)](link-drive)]
+### 🔗 [https://drive.google.com/drive/folders/1WwyWOiymXZP48JaqNQt3IKbZQrPbRH9i?usp=drive_link]
