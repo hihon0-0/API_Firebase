@@ -90,4 +90,4 @@ python -m streamlit run app.py
 
 ## 📹 Video Demo ứng dụng   
 Video trình bày đầy đủ quá trình vận hành hệ thống, từ đăng nhập đến thao tác dữ liệu thực tế trên Firebase.
-### 🔗 [https://drive.google.com/drive/folders/1WwyWOiymXZP48JaqNQt3IKbZQrPbRH9i?usp=drive_link]
+🔗 [https://drive.google.com/drive/folders/1WwyWOiymXZP48JaqNQt3IKbZQrPbRH9i?usp=drive_link]
