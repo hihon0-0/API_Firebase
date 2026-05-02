@@ -5,7 +5,7 @@ import pandas as pd
 # Địa chỉ Backend FastAPI của bạn
 BACKEND_URL = "http://127.0.0.1:8000"
 
-# Cấu hình giao diện trang web [cite: 102]
+# Cấu hình giao diện trang web 
 st.set_page_config(page_title="AI Detector", layout="wide")
 
 # Khởi tạo trạng thái đăng nhập trong session_state

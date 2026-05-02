@@ -54,7 +54,7 @@ async def root():
 
 @app.get("/health")
 async def health_check():
-    return {"status": "healthy"}
+    return {"status": "active", "student_id": "24120181", "message": "Backend is ready"}
 
 # 2. Endpoint xác thực 
 @app.post("/auth/login")

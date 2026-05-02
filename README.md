@@ -15,8 +15,8 @@
 ---
 
 ## 📖 Tổng quan dự án
-Bài Lab này tập trung vào việc xây dựng một ứng dụng hoàn chỉnh với sự tách biệt rõ ràng giữa **Frontend** và **Backend**.
-Hệ thống sử dụng **FastAPI** để xây dựng API , **Firebase** để xác thực người dùng và lưu trữ dữ liệu, kết hợp với mô hình **AI (Image Classification)** để thực hiện tính năng chính.
+* Bài Lab này tập trung vào việc xây dựng một ứng dụng hoàn chỉnh với sự tách biệt rõ ràng giữa **Frontend** và **Backend**.
+* Hệ thống sử dụng **FastAPI** để xây dựng API , **Firebase** để xác thực người dùng và lưu trữ dữ liệu, kết hợp với mô hình **AI (Image Classification)** để thực hiện tính năng chính.
 
 ### 🛠 Công nghệ sử dụng
 * **Backend:** FastAPI (Python), Firebase Admin SDK.
@@ -60,22 +60,24 @@ project/
 ```
 ---
 
-### 🚀 Hướng dẫn cài đặt và khởi chạy   
+## 🚀 Hướng dẫn cài đặt và khởi chạy   
 
-## 1. Cài đặt môi trườngĐảm bảo bạn đã cài đặt Python 3.8 trở lên. Tại thư mục gốc của dự án, chạy lệnh:
+### 1. Cài đặt môi trườngĐảm bảo bạn đã cài đặt Python 3.8 trở lên. Tại thư mục gốc của dự án, chạy lệnh:
 Bash
 ``` 
 pip install -r requirements.txt
 ```
-## 2. Khởi chạy Backend (FastAPI)
+### 2. Khởi chạy Backend (FastAPI)
 Mở terminal và di chuyển vào thư mục backend:
 Bash
 ```
 cd backend
 python -m uvicorn main:app --reload
 ```
-Note: API sẽ hoạt động tại: http://127.0.0.1:8000   
-## 3. Khởi chạy Frontend (Streamlit)
+
+* **Note: API sẽ hoạt động tại: http://127.0.0.1:8000   
+
+### 3. Khởi chạy Frontend (Streamlit)
 Mở một Terminal mới và di chuyển vào thư mục frontend:
 Bash
 ```
@@ -83,6 +85,8 @@ cd frontend
 python -m streamlit run app.py
 ```
 
-Note: Giao diện web sẽ tự động mở tại: http://localhost:8501   
-### 📹 Video Demo ứng dụng   
-Video trình bày đầy đủ quá trình vận hành hệ thống, từ đăng nhập đến thao tác dữ liệu thực tế trên Firebase.🔗 [Xem Video Demo tại đây]
+* **Note: Giao diện web sẽ tự động mở tại: http://localhost:8501   
+
+## 📹 Video Demo ứng dụng   
+Video trình bày đầy đủ quá trình vận hành hệ thống, từ đăng nhập đến thao tác dữ liệu thực tế trên Firebase.
+### 🔗 [[![Demo](https://drive.google.com/drive/folders/1WwyWOiymXZP48JaqNQt3IKbZQrPbRH9i?usp=drive_link)](link-drive)]
