@@ -62,7 +62,7 @@ project/
 
 ## 🚀 Hướng dẫn cài đặt và khởi chạy   
 
-### 1. Cài đặt môi trườngĐảm bảo bạn đã cài đặt Python 3.8 trở lên. 
+### 1. Cài đặt môi trường
 Tại thư mục gốc của dự án, chạy lệnh:
 Bash
 ``` 
@@ -90,4 +90,4 @@ python -m streamlit run app.py
 
 ## 📹 Video Demo ứng dụng   
 Video trình bày đầy đủ quá trình vận hành hệ thống, từ đăng nhập đến thao tác dữ liệu thực tế trên Firebase.
-### 🔗 [https://drive.google.com/drive/folders/1WwyWOiymXZP48JaqNQt3IKbZQrPbRH9i?usp=drive_link]
+# 🔗 [https://drive.google.com/drive/folders/1WwyWOiymXZP48JaqNQt3IKbZQrPbRH9i?usp=drive_link]
